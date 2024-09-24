@@ -37,7 +37,8 @@ List of entries (Here using Fantom Testnet):
 
 ### Save Encrypted Entry
 
-Saving the encrypted Entry need some ETH for the tranaction:
+Saving the encrypted Entry need  FTM (about <0.002, <0.001$) for the transaction:
+
 ![img_4.png](img_4.png)
 
 ### Waiting till transaction is finished
