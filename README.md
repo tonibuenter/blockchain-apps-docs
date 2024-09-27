@@ -4,6 +4,9 @@
 
 _Blockchain Apps_ is an OOIT.com initiative exploring the potential of blockchain technology.
 
+
+![img.png](img.png)
+
 ## Key Topics
 
 - **Development**: Building, testing, and deploying smart contracts (EVM compatible)
