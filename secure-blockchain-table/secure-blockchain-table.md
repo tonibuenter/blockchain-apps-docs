@@ -1,41 +1,50 @@
+<div style="border-bottom: solid gray 1px;text-align:  right"><h3 style="alignment-baseline: center">An <img src="../images/ooit-logo-300x100.png" alt="ooit logo" width="70" height="26"> Initiative</h3></div>
+
+
 # Secure Blockchain Table (SBT)
 
-The Secure Blockchain Table is a storage of a list of rows.
-A row consists of a content  (usually the encrypted data), index, a user address and a version.
-Index and version can be looked at as two dimensions. The content could be a list of values like a table row.
+The Secure Blockchain Table (SBT) is a blockchain-based data structure for storing lists of rows. Each row typically contains:
 
-Next to the rows the SBT contract allows to save 
-- Meta data (structural data for the interpretation of the data)
-- Initial data (e.g. a set of starting rows)
-- User management 
-- A secret store for entitled users
+- **Encrypted Data**: The actual information you want to store, kept confidential.
+- **Index**: A unique identifier for the row.
+- **User Address**: The blockchain address associated with the row.
+- **Version**: Tracks changes to the row over time. 
 
-If this is a bit abstract, here a real world exmple:
+Think of the index and version as two dimensions of the table. The content can be any structured data, like a row in a traditional spreadsheet.
 
-## Salary Manager
+Beyond storing rows, SBT contracts also support:
 
-### Owner starts Salary Manager cycle
+- **Metadata**: Information about the structure and meaning of the data.
+- **Initial Data**: Pre-populated rows to start with.
+- **User Management**: Control who can access and modify the data.
+- **Secret Store**: A secure place for authorized users to store sensitive information.
 
-- Owner create new SBT contract
-- Owner adds users (entitled users)
-- Owner upload excel as initial data
+## Real-World Example: Salary Manager
+
+### Owner Setup:
+
+- Creates a new SBT contract.
+- Adds authorized users.
+- Uploads an Excel sheet as initial data.
+
+### User Actions:
+
+- Loads the initial data.
+- Views and edits specific rows.
+- Saves changes, creating new versions of the rows.
+- Reviews data and version history.
+
+### User Management:
+
+- The owner can add or remove users as needed.
+
+### Owner Finalizes:
+
+- Sets the contract to read-only, preventing further changes.
 
 
-### Entitled User
+### Key Points:
 
-- User loads initial data
-- User loads data rows
-- User edits data row
-- User saves data row
-- User reloads data
-- Users check versions
-
-### Owner ends Salary Manager cycle
-
-- Owner set contract to readonly
-
-
-### Owner adds/removes users
-
-- Owner adds user
-- Owner removes user
+- SBTs provide a secure and tamper-proof way to store structured data on the blockchain.
+- They support version control and user access management.
+- SBTs can be used for various applications, like managing salaries, tracking inventory, or storing sensitive documents.

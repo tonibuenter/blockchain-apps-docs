@@ -1,27 +1,29 @@
-# Secret Store
+<div style="border-bottom: solid gray 1px;text-align:  right"><h3 style="alignment-baseline: center">An <img src="../images/ooit-logo-300x100.png" alt="ooit logo" width="70" height="26"> Initiative</h3></div>
 
-The Secret Store a very similar to a password storage application.
-
-The blockchain characteristics are:
-
-- Very save as long as you keep the private key save
-- Undestructible: better than any cloud provider
-- 100% client independency
-- Only contract keeps data
-
-## Requirements
-
-- Fully encrypt your passwords with your private key
-- All data is stored only encrypted and on the blockchain
-- Available on: Ethereum, Polygon, Fantom
-- Testnet: Fantom Testnet
+# My Secret Store
 
 
-## List of secrets
+My Secret Store functions much like a password manager, but with the added benefits of blockchain technology:
 
-You have to connect MetaMask or a passphrase to the Dapp.
+- **Unmatched Security**: Your secrets are safe as long as you protect your private key.
+- **Indestructible**: Data stored on the blockchain is tamper-proof and outlasts any cloud provider.
+- **Client Independence**: Access your secrets from anywhere, without relying on a specific platform.
+- **Decentralized Storage**: Only the smart contract holds your encrypted data.
 
-List of entries (Here using Fantom Testnet):
+## Key Features
+
+- **Strong Encryption**: Your passwords are encrypted with your private key for maximum security.
+- **Blockchain Storage**: All data is stored exclusively on the blockchain in encrypted form.
+- **Cross-Chain Compatibility**: Available on Ethereum, Polygon, and Fantom networks.
+- **Testing**: Try it out on the Fantom Testnet.
+
+## Screen Shots
+
+You have to connect with MetaMask.
+
+![img.png](img.png)
+
+List of entries (Blockchain: Fantom Testnet):
 
 ![img_1.png](img_1.png)
 
@@ -37,7 +39,7 @@ List of entries (Here using Fantom Testnet):
 
 ### Save Encrypted Entry
 
-Saving the encrypted Entry need  FTM (about <0.002, <0.001$) for the transaction:
+Saving the encrypted Entry need FTM (about <0.002, <0.001$) for the transaction:
 
 ![img_4.png](img_4.png)
 

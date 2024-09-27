@@ -1,51 +1,53 @@
+<div style="border-bottom: solid gray 1px;text-align:  right"><h3 style="alignment-baseline: center">An <img src="images/ooit-logo-300x100.png" alt="ooit logo" width="70" height="26"> Initiative</h3></div>
+
 # Blockchain Apps Documentation
 
-This repository is dedicated to the documentation about **Blockchain Apps**
+_Blockchain Apps_ is an OOIT.com initiative exploring the potential of blockchain technology.
 
-Blockchain Apps is an initiative from OOIT.com to explore the possibilities, opportunities and concepts that the blockhain technology provides.
+## Key Topics
 
-Here some key technical and conceptual topics:
-
-- Develop, test deploy contracts for business needs (EVM compatible)
-- Data storage
-- Data security (encryption ...)
-- Large Data (Arweave)
-- Transaction costs
-- Transaction speed
-- Account and secret key handling
-- Comparison between Blockchain Apps, on-premise Apps, Cloud-based Apps
+- **Development**: Building, testing, and deploying smart contracts (EVM compatible)
+- **Data**: Storing, retrieving, and securing data on blockchains
+- **Scaling**: Handling large datasets (e.g. with Arweave)
+- **Efficiency**: Transaction costs and speed
+- **Security**: Account, roles and private key management
+- **Comparisons**: Understanding Blockchain vs. traditional and cloud apps
 
 
-## Proof of Concept Apps:
+## Proof of Concept Apps
 
-According to the [POC Roadmap](poc-roadmap.md) the following D-Apps will be developed:
+To promote the gained knowledge and suggested topics a set of POC Apps have been implemented.
 
-- [Secret Store](secret-store/secret-store.md)
-- Artwork Proof (time and authorship)
-- SBT: Excel like data with high security: [Secure Blockchain Table](secure-blockchain-table%2Fsecure-blockchain-table.md)
-- Address Book (global, company-wide, personal)
-- Document store 
-- [Universal Naming Service](universal-naming-service%2Funiversal-naming-service.md)
-- A 100% pure blockchain website with backend services
+- **[My Secret Store](secret-store/secret-store.md)**
+- **Artwork Proof** (timestamping and authenticity)
+- **[Secure Blockchain Table (SBT)](secure-blockchain-table/secure-blockchain-table.md)**: Highly secure, Excel-like data storage
+- **Address Book** (global, company-wide, personal)
+- **Document store**
+- **[Universal Naming Service](universal-naming-service%2Funiversal-naming-service.md)**
+- **Pure Blockchain Website**
 
+For more, see the [POC Roadmap](poc-roadmap.md).
 
-## DevOps Support:
+## DevOps Support
 
-- Deploy Contracts
-- Online Proof of contracts (source code, compare deployed bytecode)
-- Manage Contracts (Ownership, Backup Ownerhip, User Access Manangement)
-- Key Management (Public Key Store)
-- Universal Name Service
+We're also investigating essential DevOps tasks for business applications:
 
 
-
-
+- Contract Deployment and Verification
+- Contract Management (Ownership, Access Control)
+- Key Management
+- User Authentication and Authorization
+- Contract Naming and Registry
 
 ## Dev Stuff
 
-- [Big Numbers](dev-stuff%2Fbig-numbers.md)
+Various miscellaneous aspects for development
+
+- [Big Numbers](dev-stuff/big-numbers.md)
 
 ## Various Topics
 
-- [Solution for Lost or Stolen Keys](various-topics/solution-for-lost-or-stolen-keys.md-stolen-keys.md)
-- [Network Id and Chain Id](various-topics%2Fexplain-networkid-and-chainid.md)
+- [Solution for Lost or Stolen Keys](various-topics/solution-for-lost-or-stolen-keys.md)
+- [Network Id and Chain Id](various-topics/explain-networkid-and-chainid.md)
+
+

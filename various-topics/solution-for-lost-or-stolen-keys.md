@@ -1,44 +1,47 @@
+<div style="border-bottom: solid gray 1px;text-align:  right"><h3 style="alignment-baseline: center">An <img src="../images/ooit-logo-300x100.png" alt="ooit logo" width="70" height="26"> Initiative</h3></div>
+
 # Solution for Lost or Stolen Keys
 
-A lost or stolen key may inflict a lot of damage.
+## Mitigating Risks from Lost or Stolen Private Keys
 
-In general if the private key of an address A gets in the hand of a malicious actor there is not much to do to save assets or prevent
-transactions to execute in the name of A.
+Losing or having your private key stolen can be disastrous. If a malicious actor gains access to your private key, they
+can control your associated address and its assets. Here are some ways to mitigate these risks.
 
-Here some mitigation concepts that can be applied.
+## Central Authentication and Role Manager (CAARM)
 
-## Central Authentication And Role Manager
+A CAARM contract can help address key loss by:
 
-Use a central role manager  (CAARM) contract for
+- **Address Resolution**: Providing the original or a replacement address for a given user.
+- **Role-Based Authorization**: Maintaining a list of roles a calling contract can use for authorization.
+- **Trust Requirement**: The owner of the CAARM must be trustworthy.
 
-- resolving address, returning the original or a replacement address
-- use a list of roles the calling contract can use for authorization
-- Precondition: owner of the CAARM has to be trustworthy
+### CAARM Use Cases
 
-### Example Use Cases for CAARM
+- **Address Change**: A user can change their address from A to B.
+- **Role Transfer**: Transfer roles associated with address A to address B.
+- **Address Blocking**: Block a compromised address.
+- **Updating Applications**: Update address books and secure blockchain tables to reflect the new address.
 
-- User wants to change address A to B
-- Transfer roles from A to B
-- Block A
-- Address Book add B, remove A
-- SecureBlockchainTable add B, remove A
-- CentralRoleContract: transfer A to B
+### CAARM Usage in Client Contracts
 
-### Usage in a client contract
+Instead of directly using `msg.sender`, client contracts should use `carm.resolveAddress(msg.sender)` to get the
+potentially
+updated address.
 
-Instead of using
-`msg.sender`
-use
-`carm.resolveAddress(msg.sender)`
+## Bounty Concept for Lost Keys
 
-## Bounty Concept for Lost Key
+The Bounty Concept offers an alternative to relying on a trusted CAARM owner:
 
-Instead of relying on a CARM trustworthy owner the Bounty Concept uses the following:
++ **Registration**: A user claiming to be the owner of address A registers a new address B as the replacement, along
+  with a bounty.
++ **Blocking**: Address A is blocked for a waiting period (e.g., a week or a month).
++ **Real Owner Recovery**: If the real owner detects the block, they can unblock A and claim the bounty.
++ **Key Loss Scenario**: If the user genuinely lost their key, they can use the new address B after the waiting period
+  and claim the bounty.
 
-- Actor F pretending being the owner address A registers an address B as the replacement for address A
-- In addition, the registration requires an essential amount of crypto money as a bounty
-- After the registration the address A is blocked for a waiting period like a week or a month
-- In case now the real owner R of A detects his address is blocked he can (because he hase the private key of A) unblock
-  the address A and cash in the bounty
-- In case of F is really the owner and she has lost the private key. F can use address B after the waiting period and
-  cash in the bounty.
+## Key Points
+
+- Losing a private key can have serious consequences.
+- CAARM and the Bounty Concept offer ways to mitigate risks, but each has its own tradeoffs.
+- CAARM relies on a trusted owner, while the Bounty Concept uses a financial incentive mechanism.
+- Consider these options carefully to choose the best approach for your specific needs and risk tolerance.
