@@ -46,6 +46,8 @@ We're also investigating essential DevOps tasks for business applications:
 
 Various miscellaneous aspects for development
 
+- [Developers Bookstore](dev-stuff/dev-bookstore.md)
+- [EVM and Database](dev-stuff/evm-and-database.md)
 - [Big Numbers](dev-stuff/big-numbers.md)
 
 ## Various Topics
