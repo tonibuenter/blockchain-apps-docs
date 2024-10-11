@@ -4,7 +4,6 @@
 
 _Blockchain Apps_ is an OOIT.com initiative exploring the potential of blockchain technology.
 
-
 ![img.png](img.png)
 
 ## Key Topics
@@ -16,25 +15,43 @@ _Blockchain Apps_ is an OOIT.com initiative exploring the potential of blockchai
 - **Security**: Account, roles and private key management
 - **Comparisons**: Understanding Blockchain vs. traditional and cloud apps
 
-
 ## Proof of Concept Apps
 
 To promote the gained knowledge and suggested topics a set of POC Apps have been implemented.
 
+- **[Universal Naming Service](universal-naming-service%2Funiversal-naming-service.md)**
 - **[My Secret Store](secret-store/secret-store.md)**
 - **Artwork Proof** (timestamping and authenticity)
-- **[Secure Blockchain Table (SBT)](secure-blockchain-table/secure-blockchain-table.md)**: Highly secure, Excel-like data storage
+- **[Secure Blockchain Table (SBT)](secure-blockchain-table/secure-blockchain-table.md)**: Highly secure, Excel-like
+  data storage
 - **Address Book** (global, company-wide, personal)
-- **Document store**
-- **[Universal Naming Service](universal-naming-service%2Funiversal-naming-service.md)**
+- **Document store**: User can save documents (encrypted/unencrypted) in a folder structure and create QR codes and
+  links
 - **Pure Blockchain Website**
+- **Medical Record**: User can upload medical records (fully encrypted) and Produce a QR Code a doctor can scan and open
+  for emergency.
+- **Payable Messages**: Use gets money for reading and confirming mails a company/user sent him
+- **Payable Adds**: Similar to the above: user can read adds and comment and gets money for that
+- **Meeting Support**: Supports highly confidential meetings (with documents, agenda, resolutions)
+- **Invitation Support**: User sends an invitation (per mail) to a person A with a small amount of money. If person A
+  creates/uses his account he gets the amount. User can revoke the invitation any time
+- **Simple Card Game** playing a card game online with small amounts of money/game token
 
 For more, see the [POC Roadmap](poc-roadmap.md).
+
+## Functional Goals
+
+- Using price sources for crypto values
+- Integrate Solidity Event
+- Fail-over with backup provider
+- Explore cryptographic libraries (etc. nacl)
+- Explore Zero-Knowledge functionality
+- 
+
 
 ## DevOps Support
 
 We're also investigating essential DevOps tasks for business applications:
-
 
 - Contract Deployment and Verification
 - Contract Management (Ownership, Access Control)

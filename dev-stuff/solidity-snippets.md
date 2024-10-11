@@ -33,4 +33,22 @@ function isContract(address _addr) internal view returns (bool) {
 
 ```
 
+
+
+## Is hash 256 the same as keccak256?
+
+For short, no. Recommendation use keccak256 (comes in various libraries).
+
+
+```
+function isContract(address _addr) internal view returns (bool) {
+    uint256 size;
+    assembly {
+        size := extcodesize(_addr)
+    }
+    return size > 0;
+}
+
+```
+
 ### More to come...
