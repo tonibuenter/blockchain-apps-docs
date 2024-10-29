@@ -1,6 +1,5 @@
-<div style="border-bottom: solid gray 1px;text-align:  right"><h3 style="alignment-baseline: center">An <img src="images/ooit-logo-300x100.png" alt="ooit logo" width="70" height="26"> Initiative</h3></div>
 
-# POC Roadmap
+# Blockchain Apps - POC Roadmap
 
 | Date       | Action                             | Blockchain     |
 |------------|------------------------------------|----------------|
@@ -14,3 +13,6 @@
 | 2024-09-04 | Salary Manager (SBT) Deployment    | Fantom Testnet |
 | 2024-09-12 | Universal Name Store Deployment    | Fantom Testnet |
 |            |                                    |                |
+
+
+<div style="border-bottom: solid gray 1px;text-align:  right"><h3 style="alignment-baseline: center">An <img src="images/ooit-logo-300x100.png" alt="ooit logo" width="70" height="26"> Initiative</h3></div>
