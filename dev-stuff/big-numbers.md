@@ -7,6 +7,7 @@ EVM blockchains uses unsigned integer:
 - `uint` and `unit256` : 256 bits of storage
 - `uint8` : 8 bits of storage
 - `uint16` : ditto with 16 bits
+- `uint32` : ditto with 32 bits
 
 Since Solidity versions `0.8.0` numeric overflows triggers a revert of the transaction.
 

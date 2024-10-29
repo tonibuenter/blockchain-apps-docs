@@ -2,52 +2,54 @@
 
 # Blockchain Apps Documentation
 
-_Blockchain Apps_ is an OOIT.com initiative exploring the potential of blockchain technology.
+This document outlines the "Blockchain Apps" initiative from OOIT.com, focused on exploring practical uses of blockchain
+technology.
 
-![img.png](img.png)
+![Apps Landing Page](images/apps-landing-page.png)
 
-## Key Topics
 
-- **Development**: Building, testing, and deploying smart contracts (EVM compatible)
-- **Data**: Storing, retrieving, and securing data on blockchains
-- **Scaling**: Handling large datasets (e.g. with Arweave)
-- **Efficiency**: Transaction costs and speed
-- **Security**: Account, roles and private key management
-- **Comparisons**: Understanding Blockchain vs. traditional and cloud apps
+## What We're Doing
 
-## Proof of Concept Apps
+We're researching and developing applications that leverage blockchain for various purposes, including:
 
-To promote the gained knowledge and suggested topics a set of POC Apps have been implemented.
+- **Improved Data Management:**  Securely storing, retrieving, and managing data on blockchains. This includes exploring
+  solutions for handling large datasets efficiently.
+- **Development**: Building, testing, and deploying smart contracts (EVM compatible).
+- **Scaling**: Handling large datasets (e.g. with Arweave).
+- **Efficiency**: Transaction costs and speed.
+- **Enhanced Security:**  Developing robust methods for account management, role-based access control, and private key
+  security.
+- **Increased Efficiency:** Optimizing transaction speeds and minimizing costs associated with blockchain operations.
 
-- **[Universal Naming Service](universal-naming-service%2Funiversal-naming-service.md)**
-- **[My Secret Store](secret-store/secret-store.md)**
-- **Artwork Proof** (timestamping and authenticity)
-- **[Secure Blockchain Table (SBT)](secure-blockchain-table/secure-blockchain-table.md)**: Highly secure, Excel-like
-  data storage
-- **Address Book** (global, company-wide, personal)
-- **Document store**: User can save documents (encrypted/unencrypted) in a folder structure and create QR codes and
-  links
-- **Pure Blockchain Website**
-- **Medical Record**: User can upload medical records (fully encrypted) and Produce a QR Code a doctor can scan and open
-  for emergency.
-- **Payable Messages**: Use gets money for reading and confirming mails a company/user sent him
-- **Payable Adds**: Similar to the above: user can read adds and comment and gets money for that
-- **Meeting Support**: Supports highly confidential meetings (with documents, agenda, resolutions)
-- **Invitation Support**: User sends an invitation (per mail) to a person A with a small amount of money. If person A
-  creates/uses his account he gets the amount. User can revoke the invitation any time
-- **Simple Card Game** playing a card game online with small amounts of money/game token
+## Our Projects
+
+We've built several proof-of-concept apps to demonstrate the potential of blockchain:
+
+- **[Universal Naming Service](universal-naming-service%2Funiversal-naming-service.md)** A decentralized way to manage names and properties for accounts and contracts.
+- **[My Secret Store](secret-store/secret-store.md)** Securely store sensitive information on the blockchain.
+- **Artwork Proof** Verify the authenticity and timestamp of digital artwork.
+- **[Secure Blockchain Table (SBT)](secure-blockchain-table/secure-blockchain-table.md)**: A highly secure, collaborative data storage solution similar to Excel, built on blockchain.
+- **Address Book** A decentralized address book that can be used globally, within a company, or personally.
+- **Document store**: Securely store and share documents with encryption and QR code functionality.
+- **Pure Blockchain Website** Exploring the creation of websites hosted entirely on a blockchain.
+- **Medical Record**: Allow users to securely store and share medical records with healthcare providers via QR codes.
+- **Payable Messages/Ads**: Reward users for reading and interacting with messages and advertisements.
+- **Meeting Support**: Facilitate secure and confidential meetings with document sharing and agenda management.
+- **Invitation Support**: A blockchain-based invitation system with built-in incentives.
+- **Simple Card Game** A demonstration of using blockchain for online gaming with cryptocurrency or tokens.
 
 For more, see the [POC Roadmap](poc-roadmap.md).
 
+We're actively working on:
+
 ## Functional Goals
 
-- Using price sources for crypto values
-- Integrate Solidity Event
-- Fail-over with backup provider
-- Explore cryptographic libraries (etc. nacl)
-- Explore Zero-Knowledge functionality
-- 
-
+- **Integrating price sources for crypto values.**
+- **Utilizing Solidity events for enhanced functionality.**
+- **Implementing fail-over mechanisms with backup providers.**
+- **Exploring cryptographic libraries (like NaCl) for advanced security.**
+- **Researching and implementing zero-knowledge proofs for privacy-preserving applications.**
+- **Improving DevOps support for blockchain applications, including contract deployment, management, key management, and user authentication.**
 
 ## DevOps Support
 
