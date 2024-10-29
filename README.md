@@ -1,4 +1,3 @@
-<div style="width:100%; border-bottom: solid gray 1px;text-align: right"><h3 style="alignment-baseline: center">An <img src="images/ooit-logo-300x100.png" alt="ooit logo" width="70" height="26"> Initiative</h3></div>
 
 # Blockchain Apps Documentation
 
@@ -75,3 +74,4 @@ Various miscellaneous aspects for development
 - [Network Id and Chain Id](various-topics/explain-networkid-and-chainid.md)
 
 
+<div style="width:100%; border-bottom: solid gray 1px;text-align: right"><h3 style="alignment-baseline: center">An <img src="images/ooit-logo-300x100.png" alt="ooit logo" width="70" height="26"> Initiative</h3></div>
