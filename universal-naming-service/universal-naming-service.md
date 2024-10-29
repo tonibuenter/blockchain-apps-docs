@@ -1,24 +1,27 @@
 <div style="border-bottom: solid gray 1px;text-align:  right"><h3 style="alignment-baseline: center">An <img src="../images/ooit-logo-300x100.png" alt="ooit logo" width="70" height="26"> Initiative</h3></div>
 
-# Universal Naming Service (UNS)
+## Simplify Your Blockchain Experience with Universal Naming Service (UNS)
 
-The Universal Naming Service (UNS) is a smart contract deployed on a blockchain that allows users to register unique
-names:
+Tired of long, complex blockchain addresses? The Universal Naming Service (UNS) provides a
+user-friendly solution. This decentralized service, operating on a smart contract, 
+lets you replace those cumbersome addresses with unique, human-readable names. 
 
-- **Register Addresses**R: Associate your own address or a contract address with a unique name using a restricted
-  character set.
-- **Registration Fee**R: Pay a small fee (around 1 USD) to register a name.
-- **Attach Metadata**R: Add custom key-value pairs to your registered name (additional fees may apply).
-- **Unregister**R: Remove your own address or a contract address you own from the UNS.
-- **Transfer Ownership**R: Transfer a registered name to another address.
+## Here's how UNS works:
 
-### Key Points:
 
-- The **UNS** provides a human-readable way to interact with blockchain addresses and contracts.
-- Names are unique within the **UNS**, preventing duplicates.
-- Users can add additional information to their registered names using metadata (key/value pairs).
-- The **UNS** is a fully decentralized service, meaning it's not controlled by any single entity.
+* **Easy Registration:**  Register your personal or contract address with a simple, unique name.
+* **Affordable:** For a nominal fee (around $1), secure your desired name.
+* **Enhanced Identification:** Add personalized metadata (key-value pairs) to your registered name for easier identification. 
+* **Full Control:**  Manage your UNS registration with options to unregister or transfer ownership to another address.
 
+### Benefits of using UNS::
+
+* **Simplified Interaction:**  Enjoy a more intuitive experience when interacting with blockchain addresses and contracts.
+* **Uniqueness Guaranteed:**  No more duplicate names, ensuring clarity and preventing confusion.
+* **Enhanced Information:**  Provide richer context to your blockchain identity with custom metadata.
+* **Decentralized and Secure:**  Benefit from a service that is not controlled by any single entity, promoting transparency and security.
+
+This revised version aims to be more concise and engaging, while still conveying all the key information about UNS. It emphasizes the benefits and user-friendliness of the service, making it more appealing to a wider audience.
 
 
 
