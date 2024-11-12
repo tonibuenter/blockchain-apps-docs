@@ -50,6 +50,18 @@ We're actively working on:
 - **Researching and implementing zero-knowledge proofs for privacy-preserving applications.**
 - **Improving DevOps support for blockchain applications, including contract deployment, management, key management, and user authentication.**
 
+## Architectural Goal
+
+The goal of architectural exploration is to find the best way to build blockchain applications. This includes:
+
+- **Smart Contracts, Database**: How to store data efficiently and securely.
+- **Accessing the Blockchain**: What are the option accessing the blockchain.
+- **Client-side**: How to identify data and functionality on the client side.
+- **Event and Trigger**: How to integrate event targets and triggers.
+
+
+
+
 ## DevOps Support
 
 We're also investigating essential DevOps tasks for business applications:
