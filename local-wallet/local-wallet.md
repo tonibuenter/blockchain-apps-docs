@@ -6,8 +6,8 @@ We chose the `etherjs` Local Wallet over MetaMask and similar plugin wallets due
 
 | Topic             | MetaMask Plugin Wallet                                       | Rating       | Local Wallet (etherjs)                                | Rating        |
 |-------------------|--------------------------------------------------------------|--------------|-------------------------------------------------------|---------------|
-| Security          | Encrypted with wallet password                               | ⭐️⭐️⚪ 🔓🔓⚪  | Same                                                  | ⭐️⭐️⚪ 🔓🔓⚪   |
-| Passphrase        | Provides passphrase for wallet and internal accounts         | ⭐️⭐️⚪ 🔓🔓🔓 | All accounts are external                             | ⭐️⭐️⚪ 🔓🔓🔓  |
+| Security          | Encrypted with wallet password                               | ⭐️⭐️⚪&nbsp;🔓🔓⚪  | Same                                                  | ⭐️⭐️⚪&nbsp;🔓🔓⚪   |
+| Passphrase        | Provides passphrase for wallet and internal accounts         | ⭐️⭐️⚪&nbsp;🔓🔓🔓 | All accounts are external                             | ⭐️⭐️⚪&nbsp;🔓🔓🔓  |
 | Key Management    | User must keep wallet password and passphrases safe          | ⭐️⭐️⚪ 🔓🔓🔓 | User must keep wallet password and passphrases safe   | ⭐️⭐️⚪ 🔓🔓🔓  |
 | Connecting Wallet | Can connect to any website                                   | ⭐️⭐️⭐️ 🔓🔓⚪ | Connection only used for the original website         | ⭐️⭐️⚪ 🔓🔓🔓  |
 | Data encryption   | Does not provide data encryption with public/private key     | ⚪⚪⚪ 🔓⚪⚪     | Uses `eth-crypto` for data encryption                 | ⭐️⭐️⭐️ 🔓🔓🔓 |
