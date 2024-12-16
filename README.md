@@ -18,6 +18,7 @@ We're researching and developing applications that leverage blockchain for vario
 - **Efficiency**: Transaction costs and speed.
 - **Enhanced Security:**  Developing robust methods for account management, role-based access control, and private key
   security.
+- **Privacy:** Ensure sensitive data is encrypted and only readable by the intended audience.
 - **Increased Efficiency:** Optimizing transaction speeds and minimizing costs associated with blockchain operations.
 
 ## Our Projects
@@ -46,7 +47,7 @@ We're actively working on:
 - **Integrating price sources for crypto values.**
 - **Utilizing Solidity events for enhanced functionality.**
 - **Implementing fail-over mechanisms with backup providers.**
-- **Exploring cryptographic libraries (like NaCl) for advanced security.**
+- **Exploring cryptographic libraries (like NaCl and eth-crypto) for advanced security.**
 - **Researching and implementing zero-knowledge proofs for privacy-preserving applications.**
 - **Improving DevOps support for blockchain applications, including contract deployment, management, key management, and user authentication.**
 
