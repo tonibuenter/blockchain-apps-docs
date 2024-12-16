@@ -17,4 +17,6 @@ Rating: Convenience: ⭐️, Security: 🔓
 
 ### Conclusion
 
-The security of the Local Wallet is comparable to MetaMask. Users must trust both the wallet provider and the Web3 application. The Local Wallet may seem less secure as it does not require user confirmation for transactions and signings. Keeping passphrases safe is crucial in both cases. Wallet data can be lost by re-installing the browser or clearing application data, but can be recovered with secret passphrases or private keys.
+The security of the Local Wallet is comparable to MetaMask. Users must trust both the wallet provider and the Web3 
+application. The Local Wallet may seem less secure as it does not require user confirmation for transactions and signings. Keeping passphrases safe is 
+crucial in both cases. Wallet data can be lost by re-installing the browser or clearing application data, but can be recovered with secret passphrases or private keys.
